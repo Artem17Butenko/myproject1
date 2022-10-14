@@ -12,12 +12,20 @@ h1{
     font-family: 'Yanone Kaffeesatz';
 }
 
-.container-item1{
-    position: absolute;
-    width: 1366px;
-    height: 768px;
-    background: radial-gradient(245.1% 731.52% at 34.15% 39.45%, #B60000 5%, #000000 7.17%, #1F1101 68.06%)
+.block-one {
+    display: flex;
+    flex-wrap: wrap;
+    /*width: 100%;*/
+    
+    &-image {
+        max-width: 1336px;
+        padding: 0 15px;
     }
+   
+   
+    
+    }
+
  
 
 .logo {
